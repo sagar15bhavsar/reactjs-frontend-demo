@@ -52,7 +52,6 @@ const todoReducer = (state = initialState, action) => {
   switch(action.type) {
     case ADD_PRODUCTS: return addProducts(state, action);
     case CALCULATE_TOTAL: return calculateTotalPrice(state, action);
-    case CALCULATE_TOTAL: return calculateTotalPrice(state, action);
     case ITEMS_IN_CART: return getInCartItems(state, action);
     default: return state;
   }
